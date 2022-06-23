@@ -4,7 +4,10 @@ items = [
     ("Pulpen", 10000),
 ]
 
-items.sort(key=lambda item: item[1],)
+# lambda is anonimous func
+# lambda parameters: expression
+
+items.sort(key=lambda item: item[1])
 print(items)
 
 
